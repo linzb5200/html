@@ -57,14 +57,14 @@
   </div>
 </div>
 
-<div class="fly-case-header h-120">
+<div class="fly-case-header fly-bg-white">
 
-  <div class="fly-search-box">
+  <div class="fly-search-big">
 
     <form class="layui-form" action="">
       <div class="layui-form-item">
-        <div class="layui-inline search-select">
-          <select name="city" class="layui-input layui-bg-gray" lay-verify="required">
+        <div class="layui-inline select">
+          <select name="city" class="layui-input layui-bg-gray " lay-verify="required">
             <option value=""></option>
             <option value="0">北京</option>
             <option value="1">上海</option>
@@ -73,37 +73,38 @@
             <option value="4">杭州</option>
           </select>
         </div>
-        <div class="layui-inline">
+        <div class="layui-inline"><i class="line"></i>
           <input type="text" name="title" required  lay-verify="required" placeholder="请输入标题" autocomplete="off" class="layui-input input">
         </div>
         <div class="layui-inline">
-          <button class="layui-btn" lay-submit lay-filter="searchForm">搜索</button>
+          <button class="layui-btn layui-btn-boss" lay-submit lay-filter="searchForm">搜索</button>
         </div>
 
       </div>
     </form>
 
   </div>
-</div>
-
-<div class="fly-main" style="overflow: hidden; padding-top: 20px">
 
 
-  <div class="breadcrumb-box ">
-    <div class="breadcrumb mb-20">
+
+  <div class="breadcrumb-search">
+    <div class="breadcrumb mb-10 ">
       <cite>栏目：</cite>
-      <span class="layui-breadcrumb" lay-separator="|" style="visibility: visible;"><a href="/material/tpl/0_0_1" class="active">不限</a><span lay-separator="">|</span><a href="/material/tpl/1_0_1">元旦节</a><span lay-separator="">|</span><a href="/material/tpl/2_0_1">春节</a><span lay-separator="">|</span><a href="/material/tpl/3_0_1">元宵节</a><span lay-separator="">|</span><a href="/material/tpl/4_0_1">情人节</a><span lay-separator="">|</span><a href="/material/tpl/5_0_1">植树节</a><span lay-separator="">|</span><a href="/material/tpl/6_0_1">清明节</a><span lay-separator="">|</span><a href="/material/tpl/7_0_1">妇女节</a><span lay-separator="">|</span><a href="/material/tpl/8_0_1">愚人节</a><span lay-separator="">|</span><a href="/material/tpl/9_0_1">复活节</a><span lay-separator="">|</span><a href="/material/tpl/10_0_1">劳动节</a><span lay-separator="">|</span><a href="/material/tpl/11_0_1">青年节</a><span lay-separator="">|</span><a href="/material/tpl/12_0_1">母亲节</a><span lay-separator="">|</span><a href="/material/tpl/13_0_1">端午节</a><span lay-separator="">|</span><a href="/material/tpl/14_0_1">儿童节</a><span lay-separator="">|</span><a href="/material/tpl/15_0_1">父亲节</a><span lay-separator="">|</span><a href="/material/tpl/16_0_1">建军节</a><span lay-separator="">|</span><a href="/material/tpl/17_0_1">教师节</a><span lay-separator="">|</span><a href="/material/tpl/18_0_1">中秋节</a><span lay-separator="">|</span><a href="/material/tpl/19_0_1">国庆节</a><span lay-separator="">|</span><a href="/material/tpl/20_0_1">重阳节</a><span lay-separator="">|</span><a href="/material/tpl/21_0_1">万圣节</a><span lay-separator="">|</span><a href="/material/tpl/22_0_1">感恩节</a><span lay-separator="">|</span><a href="/material/tpl/23_0_1">圣诞节</a><span lay-separator="">|</span><a href="/material/tpl/24_0_1">24节气</a><span lay-separator="">|</span><a href="/material/tpl/25_0_1">其它节日</a><span lay-separator="">|</span><a href="/material/tpl/26_0_1">建党节</a><span lay-separator="">|</span><a href="/material/tpl/27_0_1">双十一</a><span lay-separator="">|</span><a href="/material/tpl/28_0_1">腊八节</a></span>
+      <span class="layui-breadcrumb"  lay-separator=" " style="visibility: visible;"><a href="/material/tpl/0_0_1" class="active">不限</a><span lay-separator=""> </span><a href="/material/tpl/1_0_1">元旦节</a><span lay-separator=""> </span><a href="/material/tpl/2_0_1">春节</a><span lay-separator=""> </span><a href="/material/tpl/3_0_1">元宵节</a><span lay-separator=""> </span><a href="/material/tpl/4_0_1">情人节</a><span lay-separator=""> </span><a href="/material/tpl/5_0_1">植树节</a><span lay-separator=""> </span><a href="/material/tpl/6_0_1">清明节</a><span lay-separator=""> </span><a href="/material/tpl/7_0_1">妇女节</a><span lay-separator=""> </span><a href="/material/tpl/8_0_1">愚人节</a><span lay-separator=""> </span><a href="/material/tpl/9_0_1">复活节</a><span lay-separator=""> </span><a href="/material/tpl/10_0_1">劳动节</a><span lay-separator=""> </span><a href="/material/tpl/11_0_1">青年节</a><span lay-separator=""> </span><a href="/material/tpl/12_0_1">母亲节</a><span lay-separator=""> </span><a href="/material/tpl/13_0_1">端午节</a><span lay-separator=""> </span><a href="/material/tpl/14_0_1">儿童节</a><span lay-separator=""> </span><a href="/material/tpl/15_0_1">父亲节</a><span lay-separator=""> </span><a href="/material/tpl/16_0_1">建军节</a><span lay-separator=""> </span><a href="/material/tpl/17_0_1">教师节</a><span lay-separator=""> </span><a href="/material/tpl/18_0_1">中秋节</a><span lay-separator=""> </span><a href="/material/tpl/19_0_1">国庆节</a><span lay-separator=""> </span><a href="/material/tpl/20_0_1">重阳节</a><span lay-separator=""> </span><a href="/material/tpl/21_0_1">万圣节</a><span lay-separator=""> </span><a href="/material/tpl/22_0_1">感恩节</a><span lay-separator=""> </span><a href="/material/tpl/23_0_1">圣诞节</a><span lay-separator=""> </span><a href="/material/tpl/24_0_1">24节气</a><span lay-separator=""> </span><a href="/material/tpl/25_0_1">其它节日</a><span lay-separator=""> </span><a href="/material/tpl/26_0_1">建党节</a><span lay-separator=""> </span><a href="/material/tpl/27_0_1">双十一</a><span lay-separator=""> </span><a href="/material/tpl/28_0_1">腊八节</a></span>
     </div>
-    <div class="breadcrumb mb-20">
+    <div class="breadcrumb mb-10 ">
       <cite>分类：</cite>
-      <span class="layui-breadcrumb" lay-separator="|" style="visibility: visible;"><a href="/material/tpl/0_0_1" class="active">不限</a><span lay-separator="">|</span><a href="/material/tpl/0_1_1">电商</a><span lay-separator="">|</span><a href="/material/tpl/0_2_1">活动</a><span lay-separator="">|</span><a href="/material/tpl/0_3_1">母婴</a><span lay-separator="">|</span><a href="/material/tpl/0_4_1">教育</a><span lay-separator="">|</span><a href="/material/tpl/0_5_1">餐饮</a><span lay-separator="">|</span><a href="/material/tpl/0_6_1">家居</a><span lay-separator="">|</span><a href="/material/tpl/0_7_1">房产</a><span lay-separator="">|</span><a href="/material/tpl/0_8_1">旅游</a><span lay-separator="">|</span><a href="/material/tpl/0_9_1">医疗</a><span lay-separator="">|</span><a href="/material/tpl/0_10_1">汽车</a><span lay-separator="">|</span><a href="/material/tpl/0_11_1">婚庆</a><span lay-separator="">|</span><a href="/material/tpl/0_12_1">养生</a><span lay-separator="">|</span><a href="/material/tpl/0_13_1">体育</a><span lay-separator="">|</span><a href="/material/tpl/0_14_1">世界杯</a><span lay-separator="">|</span><a href="/material/tpl/0_15_1">党政</a><span lay-separator="">|</span><a href="/material/tpl/0_16_1">开学季</a><span lay-separator="">|</span><a href="/material/tpl/0_17_1">秋天</a><span lay-separator="">|</span><a href="/material/tpl/0_18_1">冬天</a><span lay-separator="">|</span><a href="/material/tpl/0_19_1">春天</a><span lay-separator="">|</span><a href="/material/tpl/0_20_1">高考</a><span lay-separator="">|</span><a href="/material/tpl/0_21_1">夏天</a></span>
+      <span class="layui-breadcrumb"  lay-separator=" " style="visibility: visible;"><a href="/material/tpl/0_0_1" class="active">不限</a><span lay-separator=""> </span><a href="/material/tpl/0_1_1">电商</a><span lay-separator=""> </span><a href="/material/tpl/0_2_1">活动</a><span lay-separator=""> </span><a href="/material/tpl/0_3_1">母婴</a><span lay-separator=""> </span><a href="/material/tpl/0_4_1">教育</a><span lay-separator=""> </span><a href="/material/tpl/0_5_1">餐饮</a><span lay-separator=""> </span><a href="/material/tpl/0_6_1">家居</a><span lay-separator=""> </span><a href="/material/tpl/0_7_1">房产</a><span lay-separator=""> </span><a href="/material/tpl/0_8_1">旅游</a><span lay-separator=""> </span><a href="/material/tpl/0_9_1">医疗</a><span lay-separator=""> </span><a href="/material/tpl/0_10_1">汽车</a><span lay-separator=""> </span><a href="/material/tpl/0_11_1">婚庆</a><span lay-separator=""> </span><a href="/material/tpl/0_12_1">养生</a><span lay-separator=""> </span><a href="/material/tpl/0_13_1">体育</a><span lay-separator=""> </span><a href="/material/tpl/0_14_1">世界杯</a><span lay-separator=""> </span><a href="/material/tpl/0_15_1">党政</a><span lay-separator=""> </span><a href="/material/tpl/0_16_1">开学季</a><span lay-separator=""> </span><a href="/material/tpl/0_17_1">秋天</a><span lay-separator=""> </span><a href="/material/tpl/0_18_1">冬天</a><span lay-separator=""> </span><a href="/material/tpl/0_19_1">春天</a><span lay-separator=""> </span><a href="/material/tpl/0_20_1">高考</a><span lay-separator=""> </span><a href="/material/tpl/0_21_1">夏天</a></span>
     </div>
-    <div class="breadcrumb">
+    <div class="breadcrumb mb-10">
       <cite>颜色：</cite>
-      <span class="layui-breadcrumb" lay-separator="|" style="visibility: visible;"><a href="/material/tpl/0_0_1" class="active">不限</a><span lay-separator="">|</span><a href="/material/tpl/0_1_1">电商</a><span lay-separator="">|</span><a href="/material/tpl/0_2_1">活动</a><span lay-separator="">|</span><a href="/material/tpl/0_3_1">母婴</a><span lay-separator="">|</span><a href="/material/tpl/0_4_1">教育</a><span lay-separator="">|</span><a href="/material/tpl/0_5_1">餐饮</a><span lay-separator="">|</span><a href="/material/tpl/0_6_1">家居</a><span lay-separator="">|</span><a href="/material/tpl/0_7_1">房产</a><span lay-separator="">|</span><a href="/material/tpl/0_8_1">旅游</a><span lay-separator="">|</span><a href="/material/tpl/0_9_1">医疗</a><span lay-separator="">|</span><a href="/material/tpl/0_10_1">汽车</a><span lay-separator="">|</span><a href="/material/tpl/0_11_1">婚庆</a><span lay-separator="">|</span><a href="/material/tpl/0_12_1">养生</a><span lay-separator="">|</span><a href="/material/tpl/0_13_1">体育</a><span lay-separator="">|</span><a href="/material/tpl/0_14_1">世界杯</a><span lay-separator="">|</span><a href="/material/tpl/0_15_1">党政</a><span lay-separator="">|</span><a href="/material/tpl/0_16_1">开学季</a><span lay-separator="">|</span><a href="/material/tpl/0_17_1">秋天</a><span lay-separator="">|</span><a href="/material/tpl/0_18_1">冬天</a><span lay-separator="">|</span><a href="/material/tpl/0_19_1">春天</a><span lay-separator="">|</span><a href="/material/tpl/0_20_1">高考</a><span lay-separator="">|</span><a href="/material/tpl/0_21_1">夏天</a></span>
+      <span class="layui-breadcrumb"  lay-separator=" " style="visibility: visible;"><a href="/material/tpl/0_0_1" class="active">不限</a><span lay-separator=""> </span><a href="/material/tpl/0_1_1">电商</a><span lay-separator=""> </span><a href="/material/tpl/0_2_1">活动</a><span lay-separator=""> </span><a href="/material/tpl/0_3_1">母婴</a><span lay-separator=""> </span><a href="/material/tpl/0_4_1">教育</a><span lay-separator=""> </span><a href="/material/tpl/0_5_1">餐饮</a><span lay-separator=""> </span><a href="/material/tpl/0_6_1">家居</a><span lay-separator=""> </span><a href="/material/tpl/0_7_1">房产</a><span lay-separator=""> </span><a href="/material/tpl/0_8_1">旅游</a><span lay-separator=""> </span><a href="/material/tpl/0_9_1">医疗</a><span lay-separator=""> </span><a href="/material/tpl/0_10_1">汽车</a><span lay-separator=""> </span><a href="/material/tpl/0_11_1">婚庆</a><span lay-separator=""> </span><a href="/material/tpl/0_12_1">养生</a><span lay-separator=""> </span><a href="/material/tpl/0_13_1">体育</a><span lay-separator=""> </span><a href="/material/tpl/0_14_1">世界杯</a><span lay-separator=""> </span><a href="/material/tpl/0_15_1">党政</a><span lay-separator=""> </span><a href="/material/tpl/0_16_1">开学季</a><span lay-separator=""> </span><a href="/material/tpl/0_17_1">秋天</a><span lay-separator=""> </span><a href="/material/tpl/0_18_1">冬天</a><span lay-separator=""> </span><a href="/material/tpl/0_19_1">春天</a><span lay-separator=""> </span><a href="/material/tpl/0_20_1">高考</a><span lay-separator=""> </span><a href="/material/tpl/0_21_1">夏天</a></span>
     </div>
   </div>
 
+</div>
+
+<div class="fly-main" style="overflow: hidden; ">
   <div class="layui-tab layui-tab-brief">
     <ul class="layui-tab-title">
       <li class="layui-this"><a href="">综合排序</a></li>
@@ -116,218 +117,128 @@
   <ul class="fly-case-list">
     <li data-id="123">
       <div class="fly-case-img" href="http://fly.layui.com/" target="_blank" >
-        <img src="../res/images/fly.jpg" alt="Fly社区">
+        <img src="../res/images/fly2.jpg" alt="Fly社区">
         <div class="tool">
-          <cite class="layui-btn layui-btn-primary layui-btn-small">下载</cite>
+          <cite class="layui-btn layui-btn-boss layui-btn-small">下载</cite>
           <div class="btn">
-            <i class="fa fa-download"></i>
-            <i class="fa fa-star-o "></i>
+            <i class="iconfont icon-zan"></i>
+            <i class="fa  fa-star-o icon-star "></i>
           </div>
         </div>
       </div>
 
       <h2><a href="http://fly.layui.com/" target="_blank">Fly社区</a></h2>
       <div class="fly-case-dash">
-        <button class="layui-btn layui-btn-primary " data-type="download"><i class="fa fa-download"></i>17786</button>
-        <button class="layui-btn layui-btn-primary fly-case-active" data-type="praise"><i class="fa fa-star-o"></i>53756</button>
+        <button class="layui-btn layui-btn-transparent " data-type="download"><i class="fa fa-download"></i>17786</button>
+        <button class="layui-btn layui-btn-transparent fly-case-active" data-type="praise"><i class="fa  fa-star-o icon-star"></i>53756</button>
       </div>
     </li>
     <li data-id="123">
       <div class="fly-case-img" href="http://fly.layui.com/" target="_blank" >
-        <img src="../res/images/fly.jpg" alt="Fly社区">
+        <img src="../res/images/fly2.jpg" alt="Fly社区">
         <div class="tool">
-          <cite class="layui-btn layui-btn-primary layui-btn-small">下载</cite>
+          <cite class="layui-btn layui-btn-boss layui-btn-small">下载</cite>
           <div class="btn">
-            <i class="fa fa-download"></i>
-            <i class="fa fa-star-o "></i>
+            <i class="iconfont icon-zan"></i>
+            <i class="fa  fa-star-o icon-star icon-star"></i>
           </div>
         </div>
       </div>
 
       <h2><a href="http://fly.layui.com/" target="_blank">Fly社区</a></h2>
       <div class="fly-case-dash">
-        <button class="layui-btn layui-btn-primary " data-type="download"><i class="fa fa-download"></i>17786</button>
-        <button class="layui-btn layui-btn-primary fly-case-active" data-type="praise"><i class="fa fa-star-o"></i>53756</button>
+        <button class="layui-btn layui-btn-transparent " data-type="download"><i class="fa fa-download"></i>17786</button>
+        <button class="layui-btn layui-btn-transparent fly-case-active" data-type="praise"><i class="fa  fa-star-o icon-star"></i>53756</button>
       </div>
     </li>
     <li data-id="123">
       <div class="fly-case-img" href="http://fly.layui.com/" target="_blank" >
-        <img src="../res/images/fly.jpg" alt="Fly社区">
+        <img src="../res/images/fly2.jpg" alt="Fly社区">
         <div class="tool">
-          <cite class="layui-btn layui-btn-primary layui-btn-small">下载</cite>
+          <cite class="layui-btn layui-btn-boss layui-btn-small">下载</cite>
           <div class="btn">
-            <i class="fa fa-download"></i>
-            <i class="fa fa-star-o "></i>
+            <i class="iconfont icon-zan"></i>
+            <i class="fa  fa-star-o icon-star "></i>
           </div>
         </div>
       </div>
 
       <h2><a href="http://fly.layui.com/" target="_blank">Fly社区</a></h2>
       <div class="fly-case-dash">
-        <button class="layui-btn layui-btn-primary " data-type="download"><i class="fa fa-download"></i>17786</button>
-        <button class="layui-btn layui-btn-primary fly-case-active" data-type="praise"><i class="fa fa-star-o"></i>53756</button>
+        <button class="layui-btn layui-btn-transparent " data-type="download"><i class="fa fa-download"></i>17786</button>
+        <button class="layui-btn layui-btn-transparent fly-case-active" data-type="praise"><i class="fa  fa-star-o icon-star"></i>53756</button>
       </div>
     </li>
     <li data-id="123">
       <div class="fly-case-img" href="http://fly.layui.com/" target="_blank" >
-        <img src="../res/images/fly.jpg" alt="Fly社区">
+        <img src="../res/images/fly2.jpg" alt="Fly社区">
         <div class="tool">
-          <cite class="layui-btn layui-btn-primary layui-btn-small">下载</cite>
+          <cite class="layui-btn layui-btn-boss layui-btn-small">下载</cite>
           <div class="btn">
-            <i class="fa fa-download"></i>
-            <i class="fa fa-star-o "></i>
+            <i class="iconfont icon-zan"></i>
+            <i class="fa  fa-star-o icon-star "></i>
           </div>
         </div>
       </div>
 
       <h2><a href="http://fly.layui.com/" target="_blank">Fly社区</a></h2>
       <div class="fly-case-dash">
-        <button class="layui-btn layui-btn-primary " data-type="download"><i class="fa fa-download"></i>17786</button>
-        <button class="layui-btn layui-btn-primary fly-case-active" data-type="praise"><i class="fa fa-star-o"></i>53756</button>
+        <button class="layui-btn layui-btn-transparent " data-type="download"><i class="fa fa-download"></i>17786</button>
+        <button class="layui-btn layui-btn-transparent fly-case-active" data-type="praise"><i class="fa  fa-star-o icon-star"></i>53756</button>
       </div>
     </li>
     <li data-id="123">
       <div class="fly-case-img" href="http://fly.layui.com/" target="_blank" >
-        <img src="../res/images/fly.jpg" alt="Fly社区">
+        <img src="../res/images/fly2.jpg" alt="Fly社区">
         <div class="tool">
-          <cite class="layui-btn layui-btn-primary layui-btn-small">下载</cite>
+          <cite class="layui-btn layui-btn-boss layui-btn-small">下载</cite>
           <div class="btn">
-            <i class="fa fa-download"></i>
-            <i class="fa fa-star-o "></i>
+            <i class="iconfont icon-zan"></i>
+            <i class="fa  fa-star-o icon-star "></i>
           </div>
         </div>
       </div>
 
       <h2><a href="http://fly.layui.com/" target="_blank">Fly社区</a></h2>
       <div class="fly-case-dash">
-        <button class="layui-btn layui-btn-primary " data-type="download"><i class="fa fa-download"></i>17786</button>
-        <button class="layui-btn layui-btn-primary fly-case-active" data-type="praise"><i class="fa fa-star-o"></i>53756</button>
+        <button class="layui-btn layui-btn-transparent " data-type="download"><i class="fa fa-download"></i>17786</button>
+        <button class="layui-btn layui-btn-transparent fly-case-active" data-type="praise"><i class="fa  fa-star-o icon-star"></i>53756</button>
       </div>
     </li>
     <li data-id="123">
       <div class="fly-case-img" href="http://fly.layui.com/" target="_blank" >
-        <img src="../res/images/fly.jpg" alt="Fly社区">
+        <img src="../res/images/fly2.jpg" alt="Fly社区">
         <div class="tool">
-          <cite class="layui-btn layui-btn-primary layui-btn-small">下载</cite>
+          <cite class="layui-btn layui-btn-boss layui-btn-small">下载</cite>
           <div class="btn">
-            <i class="fa fa-download"></i>
-            <i class="fa fa-star-o "></i>
+            <i class="iconfont icon-zan"></i>
+            <i class="fa  fa-star-o icon-star "></i>
           </div>
         </div>
       </div>
 
       <h2><a href="http://fly.layui.com/" target="_blank">Fly社区</a></h2>
       <div class="fly-case-dash">
-        <button class="layui-btn layui-btn-primary " data-type="download"><i class="fa fa-download"></i>17786</button>
-        <button class="layui-btn layui-btn-primary fly-case-active" data-type="praise"><i class="fa fa-star-o"></i>53756</button>
+        <button class="layui-btn layui-btn-transparent " data-type="download"><i class="fa fa-download"></i>17786</button>
+        <button class="layui-btn layui-btn-transparent fly-case-active" data-type="praise"><i class="fa  fa-star-o icon-star"></i>53756</button>
       </div>
     </li>
     <li data-id="123">
       <div class="fly-case-img" href="http://fly.layui.com/" target="_blank" >
-        <img src="../res/images/fly.jpg" alt="Fly社区">
+        <img src="../res/images/fly2.jpg" alt="Fly社区">
         <div class="tool">
-          <cite class="layui-btn layui-btn-primary layui-btn-small">下载</cite>
+          <cite class="layui-btn layui-btn-boss layui-btn-small">下载</cite>
           <div class="btn">
-            <i class="fa fa-download"></i>
-            <i class="fa fa-star-o "></i>
+            <i class="iconfont icon-zan"></i>
+            <i class="fa  fa-star-o icon-star "></i>
           </div>
         </div>
       </div>
 
       <h2><a href="http://fly.layui.com/" target="_blank">Fly社区</a></h2>
       <div class="fly-case-dash">
-        <button class="layui-btn layui-btn-primary " data-type="download"><i class="fa fa-download"></i>17786</button>
-        <button class="layui-btn layui-btn-primary fly-case-active" data-type="praise"><i class="fa fa-star-o"></i>53756</button>
-      </div>
-    </li>
-    <li data-id="123">
-      <div class="fly-case-img" href="http://fly.layui.com/" target="_blank" >
-        <img src="../res/images/fly.jpg" alt="Fly社区">
-        <div class="tool">
-          <cite class="layui-btn layui-btn-primary layui-btn-small">下载</cite>
-          <div class="btn">
-            <i class="fa fa-download"></i>
-            <i class="fa fa-star-o "></i>
-          </div>
-        </div>
-      </div>
-
-      <h2><a href="http://fly.layui.com/" target="_blank">Fly社区</a></h2>
-      <div class="fly-case-dash">
-        <button class="layui-btn layui-btn-primary " data-type="download"><i class="fa fa-download"></i>17786</button>
-        <button class="layui-btn layui-btn-primary fly-case-active" data-type="praise"><i class="fa fa-star-o"></i>53756</button>
-      </div>
-    </li>
-    <li data-id="123">
-      <div class="fly-case-img" href="http://fly.layui.com/" target="_blank" >
-        <img src="../res/images/fly.jpg" alt="Fly社区">
-        <div class="tool">
-          <cite class="layui-btn layui-btn-primary layui-btn-small">下载</cite>
-          <div class="btn">
-            <i class="fa fa-download"></i>
-            <i class="fa fa-star-o "></i>
-          </div>
-        </div>
-      </div>
-
-      <h2><a href="http://fly.layui.com/" target="_blank">Fly社区</a></h2>
-      <div class="fly-case-dash">
-        <button class="layui-btn layui-btn-primary " data-type="download"><i class="fa fa-download"></i>17786</button>
-        <button class="layui-btn layui-btn-primary fly-case-active" data-type="praise"><i class="fa fa-star-o"></i>53756</button>
-      </div>
-    </li>
-    <li data-id="123">
-      <div class="fly-case-img" href="http://fly.layui.com/" target="_blank" >
-        <img src="../res/images/fly.jpg" alt="Fly社区">
-        <div class="tool">
-          <cite class="layui-btn layui-btn-primary layui-btn-small">下载</cite>
-          <div class="btn">
-            <i class="fa fa-download"></i>
-            <i class="fa fa-star-o "></i>
-          </div>
-        </div>
-      </div>
-
-      <h2><a href="http://fly.layui.com/" target="_blank">Fly社区</a></h2>
-      <div class="fly-case-dash">
-        <button class="layui-btn layui-btn-primary " data-type="download"><i class="fa fa-download"></i>17786</button>
-        <button class="layui-btn layui-btn-primary fly-case-active" data-type="praise"><i class="fa fa-star-o"></i>53756</button>
-      </div>
-    </li>
-    <li data-id="123">
-      <div class="fly-case-img" href="http://fly.layui.com/" target="_blank" >
-        <img src="../res/images/fly.jpg" alt="Fly社区">
-        <div class="tool">
-          <cite class="layui-btn layui-btn-primary layui-btn-small">下载</cite>
-          <div class="btn">
-            <i class="fa fa-download"></i>
-            <i class="fa fa-star-o "></i>
-          </div>
-        </div>
-      </div>
-
-      <h2><a href="http://fly.layui.com/" target="_blank">Fly社区</a></h2>
-      <div class="fly-case-dash">
-        <button class="layui-btn layui-btn-primary " data-type="download"><i class="fa fa-download"></i>17786</button>
-        <button class="layui-btn layui-btn-primary fly-case-active" data-type="praise"><i class="fa fa-star-o"></i>53756</button>
-      </div>
-    </li>
-    <li data-id="123">
-      <div class="fly-case-img" href="http://fly.layui.com/" target="_blank" >
-        <img src="../res/images/fly.jpg" alt="Fly社区">
-        <div class="tool">
-          <cite class="layui-btn layui-btn-primary layui-btn-small">下载</cite>
-          <div class="btn">
-            <i class="fa fa-download"></i>
-            <i class="fa fa-star-o "></i>
-          </div>
-        </div>
-      </div>
-
-      <h2><a href="http://fly.layui.com/" target="_blank">Fly社区</a></h2>
-      <div class="fly-case-dash">
-        <button class="layui-btn layui-btn-primary " data-type="download"><i class="fa fa-download"></i>17786</button>
-        <button class="layui-btn layui-btn-primary fly-case-active" data-type="praise"><i class="fa fa-star-o"></i>53756</button>
+        <button class="layui-btn layui-btn-transparent " data-type="download"><i class="fa fa-download"></i>17786</button>
+        <button class="layui-btn layui-btn-transparent fly-case-active" data-type="praise"><i class="fa  fa-star-o icon-star"></i>53756</button>
       </div>
     </li>
   </ul>
