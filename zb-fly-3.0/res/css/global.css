@@ -546,38 +546,22 @@ body .fly-user-main{position: relative; min-height: 600px;}
 }
 
 /* 搜索框 */
-.fly-search-banner{position: absolute; bottom: 20px; left: 0; width: 100%; text-align: center;}
-.fly-search-area{padding-top: 40px; padding-bottom: 40px; left: 0;  text-align: center;}
+.fly-search-index{position: absolute; width: 100%; text-align: center; top: 240px;border-radius: 5px; z-index: 2;}
+.fly-search-big{padding-top: 40px; padding-bottom: 20px; left: 0;  text-align: center;}
 .search-area .layui-form{display:block;border-radius: 2px;border: 1px;}
-.search-area .layui-form-item .layui-inline{margin-right: -5px;margin-bottom: 0px; }
+.search-area .layui-form-item .layui-inline{margin-right: -5px;margin-bottom: 0px;border: 1px solid #ff8228;  border-left: none;  border-right: none;}
 
 .search-area .layui-form .select{
-  width: 160px!important;
+  width: 160px!important;border-left: 1px solid #ff8228; border-right: none;
 }
 .search-area .layui-form input{
-  width: 300px;
+  width: 500px;border-left: none;  border-right: none;
 }
 .search-area .layui-form button{
   width: 140px;
-}
-
-/* 大搜索框 */
-.fly-search-big{padding-top: 40px; padding-bottom: 40px; left: 0;  text-align: center;}
-.fly-search-big .layui-form{display:block;border-radius: 2px;border: 1px;}
-.fly-search-big .layui-form-item .layui-inline{margin-right: -5px;margin-bottom: 0px;border: 1px solid #ff8228;  border-left: none;  border-right: none;
-}
-
-.fly-search-big .layui-form .select{
-  width: 160px!important;border-left: 1px solid #ff8228; border-right: none;
-}
-.fly-search-big .layui-form input{
-  width: 500px;border-left: none;  border-right: none;
-}
-.fly-search-big .layui-form button{
-  width: 140px;
   border-radius:0px!important;
 }
-.fly-search-big .line{
+.search-area .line{
   width: 1px;
   height: 26px;
   background-color: #f2f2f5;
@@ -585,6 +569,7 @@ body .fly-user-main{position: relative; min-height: 600px;}
   top: 8px;
   left: 0;
 }
+
 /* 大标题 */
 .layui-tab-brief ul li .title{font-size: 28px; font-weight: bold; margin-bottom: 5px; color: #ff7c19;}
 
