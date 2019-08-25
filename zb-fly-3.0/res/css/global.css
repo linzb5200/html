@@ -29,6 +29,7 @@ a:hover{color:#ff8a00!important;text-decoration:none;-webkit-transition:all line
 .layui-btn-boss{background: #ff8a00!important;color: #fff;}
 .layui-btn-transparent{background: none; color: #000;}
 .layui-btn-transparent:hover{color: #000;}
+.layui-layer-close:hover{transform: rotate(180deg);}
 /* 图标 */
 
 @font-face {font-family: "layui-icon-fly";
@@ -243,6 +244,19 @@ pre{padding: 10px 15px; margin: 10px 0; font-size: 12px; border-left: 6px solid 
 .fly-search .layui-icon{font-size: 20px;}
 .fly-search:hover{color: #5FB878;}
 .fly-layer-search input{height: 75px; line-height: 75px; width: 500px; padding: 0 15px; font-size: 20px; border: none 0; background: none;}
+
+
+
+/* 登录 */
+.fly-third-login{}
+.fly-third-login button{ background: #5FB878; width: 300px;  margin-bottom: 10px; border-radius: 4px;}
+.fly-third-login .extra{width: 300px; left: 30%; color: #999;  font-size: 13px; text-align: center; cursor: pointer;}
+
+.fly-login-area{}
+.fly-login-area input{ width: 300px;}
+.fly-login-area button{ background: #5FB878; width: 300px;  margin-bottom: 10px; border-radius: 4px;}
+.fly-login-area .extra{width: 300px; left: 30%; color: #999;  font-size: 13px; text-align: center; cursor: pointer;}
+.fly-login-area .send{ color: #ff7c19; cursor: pointer;}
 
 /* 筛选 */
 .fly-filter a{padding: 0 8px; color: #666;}
