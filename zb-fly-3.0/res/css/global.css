@@ -572,7 +572,9 @@ body .fly-user-main{position: relative; min-height: 600px;}
 
 /* 大标题 */
 .layui-tab-brief ul li .title{font-size: 28px; font-weight: bold; margin-bottom: 5px; color: #ff7c19;}
-
+.layui-tab-brief>.layui-tab-more li.layui-this:after, .layui-tab-brief>.layui-tab-title .layui-this:after{
+  border-bottom: 2px solid #ff7c19;
+}
 /* 面包屑分类 */
 .breadcrumb-search{
   width: 1079px;
@@ -580,7 +582,8 @@ body .fly-user-main{position: relative; min-height: 600px;}
   padding-bottom: 20px;
 }
 .breadcrumb-search cite{font-weight: bold!important;color: #999!important}
-.breadcrumb-search .layui-breadcrumb{    line-height: 24px;}
+.breadcrumb-search .layui-breadcrumb{ line-height: 24px;}
+.breadcrumb-search .layui-breadcrumb .active{color: #ff7c19!important;}
 .breadcrumb-search a{color: #414a60!important; font-size: 14px!important; }
 .breadcrumb-search a:hover{color: #ff7c19!important;}
 
@@ -627,7 +630,7 @@ body .fly-user-main{position: relative; min-height: 600px;}
 .layer-ext-ul img{width: 50px; height: 50px; border-radius: 100%;}
 .layer-ext-ul li{margin: 8px;}
 .layer-ext-case .layui-layer-title{border: none; background-color: #009688; color: #fff;}
-.fly-case-dash .layui-btn{width: 47%;border: none;color: #9c9b9b;}
+.fly-case-dash .layui-btn{width: 47%;border: none;color: #9c9b9b;border-top: 1px dotted #eee;}
 .fly-case-dash .layui-btn i{margin-right: 5px}
 
 /* 广告 */
