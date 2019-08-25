@@ -92,7 +92,7 @@ layui.define(['laypage', 'fly'], function(exports){
                     ,'<li class="layui-form-item">'
                     ,'<label class="layui-form-label"></label>'
                     ,'<div class="layui-input-block">'
-                    ,'<div class="extra register" >注册帐号</div>'
+                    ,'<div class="extra other" >其他登录方式</div>'
                     ,'</div>'
                     ,'</li>'
                     ,'</ul>'].join('')
@@ -106,8 +106,10 @@ layui.define(['laypage', 'fly'], function(exports){
                         return layer.msg('登录');
                     });
 
-                    layero.find('.register').on('click', function() {
-                        return layer.msg('注册帐号');
+                    layero.find('.other').on('click', function() {
+                        layer.close(index);
+                        var type = 'login';
+                        active[type] && active[type].call(this, div);
                     });
 
                 }
