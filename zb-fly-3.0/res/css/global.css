@@ -24,6 +24,7 @@ cite{font-style: normal;}
 .mt-20{margin-top: 20px}
 .mb-20{margin-bottom: 20px}
 .mb-10{margin-bottom: 10px}
+.minwd{min-width:1200px;}
 
 a:hover{color:#ff8a00!important;text-decoration:none;-webkit-transition:all linear .2s;transition:all linear .2s}
 .layui-btn-boss{background: #ff8a00!important;color: #fff;}
@@ -259,6 +260,7 @@ pre{padding: 10px 15px; margin: 10px 0; font-size: 12px; border-left: 6px solid 
 .fly-login-area .send{ color: #ff7c19; cursor: pointer;}
 
 /* 筛选 */
+.fly-filter { background: white;    margin-bottom: 20px;}
 .fly-filter a{padding: 0 8px; color: #666;}
 .fly-filter a.layui-this{color: #5FB878;}
 .fly-filter .fly-mid{margin: 0 8px;}
@@ -586,19 +588,32 @@ body .fly-user-main{position: relative; min-height: 600px;}
 
 /* 大标题 */
 .layui-tab-brief ul li .title{font-size: 28px; font-weight: bold; margin-bottom: 5px; color: #ff7c19;}
+.layui-tab-brief>.layui-tab-title{border-bottom-style: none; }
 .layui-tab-brief>.layui-tab-more li.layui-this:after, .layui-tab-brief>.layui-tab-title .layui-this:after{
   border-bottom: 2px solid #ff7c19;
 }
+
+/* 排序选项 */
+.fly-filter {position:relative;float: left; width: 100%;height: 50px;}
+.fly-filter .order-tab {position:relative; float: left; width: 440px;}
+.fly-filter .filter-tab{position:relative; float: right; width: 400px;height: 41px;}
+.fly-filter .filter-tab .layui-nav{ height: 41px; background-color:white!important;}
+.fly-filter .filter-tab .layui-nav { margin: 10px 0; }
+.fly-filter .filter-tab .layui-nav .layui-nav-item {line-height: 41px; }
+.fly-filter .filter-tab .layui-nav .layui-nav-item span{ color:#6d6d6d; }
+.fly-filter .filter-tab .layui-nav .layui-nav-item a{ color:#6d6d6d;}
+.fly-filter .filter-tab .layui-nav .layui-nav-item .layui-nav-child{ top:40px; left: -10px;}
+.fly-filter .filter-tab .layui-nav .layui-nav-more {border-color:#666 transparent transparent;border-top-color:#666;}
+.fly-filter .filter-tab .layui-nav .layui-nav-mored,.layui-nav-itemed .layui-nav-more{border-color:transparent transparent #666}
+.fly-filter .filter-tab .layui-nav .layui-nav-bar{position:absolute;left:0;top:0;width:0;height:0px;background-color:red;transition:all .2s;-webkit-transition:all .2s}
+
 /* 面包屑分类 */
-.breadcrumb-search{
-  width: 1079px;
-  margin: 0 auto 15px;
-  padding-bottom: 20px;
-}
-.breadcrumb-search cite{font-weight: bold!important;color: #999!important}
+.breadcrumb-search{  width: 1079px;  margin: 0 auto 15px;  padding-bottom: 20px;}
+.breadcrumb-search cite{font-weight: bold!important;color: #999!important; margin-right: 20px;}
 .breadcrumb-search .layui-breadcrumb{ line-height: 24px;}
 .breadcrumb-search .layui-breadcrumb .active{color: #ff7c19!important;}
-.breadcrumb-search a{color: #414a60!important; font-size: 14px!important; }
+.breadcrumb-search .layui-breadcrumb span{margin: 0 10px;}
+.breadcrumb-search a{color: #6d6d6d!important; font-size: 14px!important; }
 .breadcrumb-search a:hover{color: #ff7c19!important;}
 
 /* 案例 */
@@ -672,7 +687,6 @@ body .fly-user-main{position: relative; min-height: 600px;}
 
   /* 头部 */
   .fly-header .fly-nav-user li .fly-nav-avatar{padding-right: 15px;}
-  .fly-header .fly-nav-user{margin-right: 5px;}
 
   /* 专栏 */
   .fly-column{height: auto;}
