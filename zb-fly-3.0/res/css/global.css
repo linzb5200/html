@@ -206,6 +206,9 @@ pre{padding: 10px 15px; margin: 10px 0; font-size: 12px; border-left: 6px solid 
 .fly-panel[pad20]{padding: 20px;}
 .fly-panel-title{position: relative; height: 50px; line-height: 50px; padding: 0 15px; border-bottom: 1px dotted #E9E9E9; color: #333; border-radius: 2px 2px 0 0; font-size: 14px;}
 .fly-panel-main{padding: 10px 15px;}
+.fly-panel-border{border: 1px solid #e6e6e6; box-shadow: none;}
+.fly-panel-border .fly-panel-title{border-bottom: 1px solid #e6e6e6;}
+
 .fly-panel-info{padding: 10px 10px;}
 .fly-panel-info .tb{list-style: none; display: table;  height: 100%;  width: 100%;}
 .fly-panel-info .tb li{
@@ -346,7 +349,10 @@ body .layui-edit-face  .layui-layer-content{padding:0; background-color:#fff; co
 .fly-signin-days{position: absolute; right: 15px; padding-left: 10px; color: #999;}
 .fly-signin-main{position: relative; height: 38px; padding: 24px 15px; text-align: center;}
 .fly-signin-main span{padding-left: 10px;}
-
+.fly-infos-main{position: relative; height: 35px; padding: 24px 15px; text-align: center;}
+.fly-infos-main i{font-size: 30px;}
+.fly-infos-main span{padding-left: 10px;}
+.fly-infos-main cite {  padding: 0 5px;  color: #FF5722;  font-style: normal;}
 /* 榜单 */
 .fly-rank{padding-bottom: 10px;}
 .fly-rank dl{position: relative; overflow: hidden; margin-left: 20px; text-align: center; font-size: 0;}
@@ -448,7 +454,7 @@ body .layui-edit-face  .layui-layer-content{padding:0; background-color:#fff; co
 /* 用户中心 */
 body .fly-user-main{position: relative; min-height: 600px;}
 .fly-user-main>.layui-nav{position: absolute; left: 0; top: 0; z-index: 1000; height: 100%; padding: 10px 0;}
-.fly-user-main>.layui-nav .layui-icon{position: relative; top: 2px; font-size: 20px; margin-right: 10px;}
+.fly-user-main>.layui-nav i{position: relative; top: 2px; font-size: 20px; margin-right: 10px;}
 .fly-user-main>.fly-panel{min-height: 575px; margin: 0 0 10px 215px;}
 .fly-user-main .fly-none{min-height: 0;}
 .fly-panel-user[pad20]{padding-top: 5px;}
@@ -476,7 +482,7 @@ body .fly-user-main{position: relative; min-height: 600px;}
 
 .fly-home-info i{padding-right: 5px; padding-left: 10px; color: #666;}
 .fly-home-info span{color: #999;}
-.fly-sns{margin-top: 10px;}
+.fly-sns{margin-top: 20px;}
 
 .fly-home-jie .jie-row,
 .fly-home-da .home-jieda{min-height: 500px; padding: 5px 20px;}
@@ -489,6 +495,14 @@ body .fly-user-main{position: relative; min-height: 600px;}
 .home-jieda li a{padding:0 5px; color:#4F99CF;}
 .home-jieda li p{color:#999;}
 .home-jieda li p span{padding-right:5px;}
+
+/* 快捷方式 */
+.fly-shortcut{margin: 5px 0;}
+.fly-shortcut li{text-align: center;}
+.fly-shortcut li .layui-icon{display: inline-block; width: 100%; height: 60px; line-height: 60px; text-align: center; color: #fff; border-radius: 2px; font-size: 30px; transition: all .3s; -webkit-transition: all .3s;}
+.fly-shortcut li cite{position: relative; top: 2px; display: block; color: #666; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; font-size: 14px;}
+.fly-shortcut li:hover .layui-icon{opacity: 0.9;}
+.fly-shortcut li .layui-icon{background-color: #2F9688;}
 
 /* 我的消息 */
 #LAY-minemsg{min-height:420px;}
