@@ -306,6 +306,34 @@ layui.define(['layer', 'laytpl', 'form', 'element', 'upload', 'util'], function(
       }
       return arguments.callee;
     }
+
+    //联系客服
+    ,kfcont: function(){
+      var html = '';
+          html += '\n' +
+              '<div class="fly-kfcont">\n' +
+              '  <div class="cmmt">\n' +
+              '    <div class="kf">\n' +
+              '        <span>\n' +
+              '            <a href="https://wpa.qq.com/msgrd?v=3&amp;uin=519182263&amp;site=qq&amp;menu=yes" rel="nofollow" title="QQ客服" target="_blank">\n' +
+              '                <img src="../res/images/icon/rticos1.png" alt="QQ客服" height="36" width="36">联系QQ客服\n' +
+              '            </a>\n' +
+              '        </span>\n' +
+              '      <span>\n' +
+              '          <a href="#" target="blank" rel="nofollow" title="智能客服">\n' +
+              '              <img src="../res/images/icon/rticos2.png" alt="智能客服" height="36" width="36">联系智能客服\n' +
+              '          </a>\n' +
+              '      </span>\n' +
+              '    </div>\n' +
+              '    <div class="ewm">\n' +
+              '      <i><img src="../res/images/icon/kfico.png" width="120" alt="72ppt二维码"></i>\n' +
+              '      <em>扫码向“72ppt”<br>客服提问</em>\n' +
+              '    </div>\n' +
+              '  </div>\n' +
+              '</div>';
+          html += "";
+        return html;
+    }
     
   };
 
@@ -612,8 +640,11 @@ layui.define(['layer', 'laytpl', 'form', 'element', 'upload', 'util'], function(
     ,bgcolor: '#ff7c19'
     ,click: function(type){
       if(type === 'bar1'){
-        layer.msg('打开 index.js，开启发表新帖的路径');
-        //location.href = 'jie/add.html';
+        if($('.fly-kfcont').length >0){
+            $('.fly-kfcont').remove();
+        }else{
+            $(".fly-footer").append(fly.kfcont());
+        }
       }
     }
   });
