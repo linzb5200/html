@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="../res/layui/css/layui.css">
   <link rel="stylesheet" href="../res/css/global.css">
 </head>
-<body>
+<body class="fly-full">
 
 <div class="fly-header layui-bg-black">
   <div class="layui-container">
@@ -82,23 +82,23 @@
         <div class="fly-detail-info">
           <!-- <span class="layui-badge">审核中</span> -->
           <span class="layui-badge layui-bg-green fly-detail-column">动态</span>
-          
+
           <span class="layui-badge" style="background-color: #999;">未结</span>
           <!-- <span class="layui-badge" style="background-color: #5FB878;">已结</span> -->
-          
+
           <span class="layui-badge layui-bg-black">置顶</span>
           <span class="layui-badge layui-bg-red">精帖</span>
-          
+
           <div class="fly-admin-box" data-id="123">
             <span class="layui-btn layui-btn-xs jie-admin" type="del">删除</span>
-            
-            <span class="layui-btn layui-btn-xs jie-admin" type="set" field="stick" rank="1">置顶</span> 
+
+            <span class="layui-btn layui-btn-xs jie-admin" type="set" field="stick" rank="1">置顶</span>
             <!-- <span class="layui-btn layui-btn-xs jie-admin" type="set" field="stick" rank="0" style="background-color:#ccc;">取消置顶</span> -->
-            
-            <span class="layui-btn layui-btn-xs jie-admin" type="set" field="status" rank="1">加精</span> 
+
+            <span class="layui-btn layui-btn-xs jie-admin" type="set" field="status" rank="1">加精</span>
             <!-- <span class="layui-btn layui-btn-xs jie-admin" type="set" field="status" rank="0" style="background-color:#ccc;">取消加精</span> -->
           </div>
-          <span class="fly-list-nums"> 
+          <span class="fly-list-nums">
             <a href="#comment"><i class="iconfont" title="回答">&#xe60c;</i> 66</a>
             <i class="iconfont" title="人气">&#xe60b;</i> 99999
           </span>
@@ -114,7 +114,7 @@
 * 全面同步最新的 Fly 社区风格，各种细节得到大幅优化
 * 更友好的响应式适配能力
 </pre>
-          
+
           下载<hr>
           <p>
             官网：<a href="http://www.layui.com/template/fly/" target="_blank">http://www.layui.com/template/fly/</a><br>
@@ -144,9 +144,9 @@
                 <a href="" class="fly-link">
                   <cite>贤心</cite>
                   <i class="iconfont icon-renzheng" title="认证信息：XXX"></i>
-                  <i class="layui-badge fly-badge-vip">VIP3</i>              
+                  <i class="layui-badge fly-badge-vip">VIP3</i>
                 </a>
-                
+
                 <span>(楼主)</span>
                 <!--
                 <span style="color:#5FB878">(管理员)</span>
@@ -180,7 +180,7 @@
               </div>
             </div>
           </li>
-          
+
           <li data-id="111">
             <a name="item-1111111111"></a>
             <div class="detail-about detail-about-reply">
@@ -189,7 +189,7 @@
               </a>
               <div class="fly-detail-user">
                 <a href="" class="fly-link">
-                  <cite>贤心</cite>       
+                  <cite>贤心</cite>
                 </a>
               </div>
               <div class="detail-hits">
@@ -215,11 +215,11 @@
               </div>
             </div>
           </li>
-          
+
           <!-- 无数据时 -->
           <!-- <li class="fly-none">消灭零回复</li> -->
         </ul>
-        
+
         <div class="layui-form layui-form-pane">
           <form action="/jie/reply/" method="post">
             <div class="layui-form-item layui-form-text">

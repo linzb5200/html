@@ -582,13 +582,16 @@ body .fly-user-main{position: relative; min-height: 600px;}
 .search-area .layui-form-item .layui-inline{margin-right: -5px;margin-bottom: 0px;border: 1px solid #ff8228;  border-left: none;  border-right: none;}
 
 .search-area .layui-form .select{
+  height:37px;background-color: white;
   width: 160px!important;border-left: 1px solid #ff8228; border-right: none;
 }
 .search-area .layui-form input{
+  height: 37px;
   width: 500px;border-left: none;  border-right: none;
 }
 .search-area .layui-form button{
   width: 140px;
+  height: 38px;
   border-radius:0px!important;
 }
 .search-area .line{
